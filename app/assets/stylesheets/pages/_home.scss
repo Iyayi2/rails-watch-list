@@ -1,0 +1,22 @@
+// Specific CSS for your home-page
+.banner {
+  background-image: url(asset_path('assortment-cinema-elements-red-background-with-copy-space.jpg'));
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  align-items: center;
+  display: flex;
+
+  h1 {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+li {
+  list-style-type: none;
+}

@@ -1,0 +1,9 @@
+<h1 class=>Create a list</h1>
+<div class='form-control flex bg-white'>
+  <%= form_with model: @list do |f| %>
+    <h1><%= f.label :name %></h1>
+    <h1><%= f.text_field :name %></h1>
+    <%= f.submit class: "btn btn-primary"%>
+    <%= link_to 'Back to list', root_path, class: 'btn btn-primary' %>
+  <% end %>
+</div>
